@@ -9,9 +9,10 @@ Java SE 6 이후에 나온 기능과 Spring Boot MVC 를 학습하기 위한 프
 ## 흥미로운 문법
 
 ### try-with-resources (Java 7+)
-- try 블록이 끝나면, 파일 같은 외부 리소스를 자동으로 해제해서 사용성이 증가한다.
+> try 블록이 끝나면, 파일 같은 외부 리소스를 자동으로 해제해서 사용성이 증가한다.
 
-https://github.com/newy2/java-spring-playground/blob/92eca1ccdf943940af903897b6185a62d7be7720/src/test/java/com/newy/playground/study/java/TryWithResourceTest.java#L12-L33
+https://github.com/newy2/java-playground/blob/02f3f5a908c536c8977084ef1983c51786ebc69d/src/test/java/com/newy/playground/study/java/TryWithResourceTest.java#L11-L34
+
 
 ### 메서드 참조 (Method Reference) (Java 8+)
 - 메서드 참조와 `FunctionalInterface`의 파라미터 타입과 리턴 타입이 동등하다면, 다른 이름의 `FunctionalInterface` 변수에 메서드 참조를 할당할 수 있다. Java 는 이 규칙으로 기존 API를 확장하여, 메서드 참조와 람다 표현식을 지원한다.
